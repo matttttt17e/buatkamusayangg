@@ -2,7 +2,7 @@ document.getElementById("trigger").click();
 
 function musik() {
     var audio = new Audio('ilo.mp3');
-    audio.play();
+    audio.controls();
     //alert('haia');
 };
 
